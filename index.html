@@ -1,2 +1,62 @@
-<!-- Main homepage -->
-<html><head><title>Happy Birthday Tanya</title></head><body>Welcome!</body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tanya's Birthday</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <audio autoplay loop>
+    <source src="music/tumsehi.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="hero-section">
+    <h1>Happy Birthday Tanya 🎉</h1>
+    <p>You’re one of a kind, and this page is all about celebrating you.</p>
+    <div class="butterfly-icon" onclick="toggleMessage()">
+      🦋
+    </div>
+  </div>
+
+  <div class="gallery-section">
+    <a href="gallery.html">📸 Click here to view your photo & video memories</a>
+  </div>
+
+  <div id="personal-message" class="hidden">
+    <audio autoplay loop>
+      <source src="music/terahonelagahoon.mp3" type="audio/mpeg" />
+    </audio>
+    <div class="message-box">
+      <h2>Message from Shlok 💌</h2>
+      <p>
+        You’ve always meant a lot to me... just wanted you to know that even from afar, someone’s wishing you the happiest day filled with love, laughter, and butterflies. 💫
+      </p>
+    </div>
+  </div>
+
+  <div class="video-section">
+    <h2>Ik Kudi – Cinematic Edit 🎬</h2>
+    <video controls class="cinematic-video">
+      <source src="videos/VID_20250720_184327_622_bsl.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <video controls class="cinematic-video">
+      <source src="videos/VID_20250720_182600_036_bsl.mp4" type="video/mp4" />
+    </video>
+    <video controls class="cinematic-video">
+      <source src="videos/VID_20250720_182029_319_bsl.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <div class="quote-section">
+    <p>If you ever wonder whether someone is loving you from a distance... remember this page. 💖</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
