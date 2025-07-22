@@ -1,21 +1,2 @@
-
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to right, #ffe4e1, #ffccff);
-    text-align: center;
-    padding: 2rem;
-}
-.login-screen {
-    margin-top: 100px;
-}
-input {
-    margin: 5px;
-    padding: 10px;
-}
-button {
-    padding: 10px 20px;
-    background-color: #ff69b4;
-    border: none;
-    color: white;
-    cursor: pointer;
-}
+/* CSS styling */
+body { background: linear-gradient(to right, #ffd1dc, #ffe3f0); }
